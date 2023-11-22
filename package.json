@@ -1,7 +1,7 @@
 {
   "name": "my-first-nextapp",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,5 +13,8 @@
     "react": "latest",
     "react-dom": "latest",
     "sass": "^1.69.5"
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.33.2"
   }
 }
